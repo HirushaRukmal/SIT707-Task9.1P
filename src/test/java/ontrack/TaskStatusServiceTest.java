@@ -51,8 +51,8 @@ public class TaskStatusServiceTest {
 
     @Test
     public void testLowerCaseInput() {
-    	Assert.assertEquals("Wrong message",
-    	        service.getTaskStatusMessage("PENDING"));
+        Assert.assertEquals("Task is pending review.",
+                service.getTaskStatusMessage("PENDING"));
     }
 
     @Test
